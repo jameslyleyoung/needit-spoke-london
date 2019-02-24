@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Input a number and return the date that many days ago.</description>
+        <internal_name>get_days_ago_date</internal_name>
+        <label_cache>[{"name":"{{action.days_ago}}","label":"action➛Days ago","type":"action","ref":""},{"name":"{{step[2db7bb93-9d02-4c64-8f4b-2e51afc54992].n}}","label":"step➛Calculate daysAgo Date➛n","type":"step","ref":""},{"name":"{{step[2db7bb93-9d02-4c64-8f4b-2e51afc54992].ne}}","label":"step➛Calculate daysAgo Date➛ne","type":"step","ref":""},{"name":"{{step[2db7bb93-9d02-4c64-8f4b-2e51afc54992].new}}","label":"step➛Calculate daysAgo Date➛new","type":"step","ref":""},{"name":"{{step[2db7bb93-9d02-4c64-8f4b-2e51afc54992].new_}}","label":"step➛Calculate daysAgo Date➛new_","type":"step","ref":""},{"name":"{{step[2db7bb93-9d02-4c64-8f4b-2e51afc54992].new_d}}","label":"step➛Calculate daysAgo Date➛new_d","type":"step","ref":""},{"name":"{{step[2db7bb93-9d02-4c64-8f4b-2e51afc54992].new_da}}","label":"step➛Calculate daysAgo Date➛new_da","type":"step","ref":""},{"name":"{{step[2db7bb93-9d02-4c64-8f4b-2e51afc54992].new_dat}}","label":"step➛Calculate daysAgo Date➛new_dat","type":"step","ref":""},{"name":"{{step[2db7bb93-9d02-4c64-8f4b-2e51afc54992].new_date}}","label":"step➛Calculate daysAgo Date➛new_date","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>682339c2db73a300abddd8c0cf96194c</latest_snapshot>
+        <master_snapshot>7c2339c2db73a300abddd8c0cf96197e</master_snapshot>
+        <name>Get Days Ago Date</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 17:06:16</sys_created_on>
+        <sys_id>b44665cadb33a300abddd8c0cf961950</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get Days Ago Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_202591_needit_sp">92b0a9c2db33a300abddd8c0cf961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">92b0a9c2db33a300abddd8c0cf961993</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b44665cadb33a300abddd8c0cf961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 18:02:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b44665cadb33a300abddd8c0cf961950"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b44665cadb33a300abddd8c0cf961950"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>b44665cadb33a300abddd8c0cf961950</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 17:12:48</sys_created_on>
+        <sys_id>78c7a50edb33a300abddd8c0cf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 17:12:48</sys_updated_on>
+        <value/>
+        <variable display_value="">7cc7650edb33a300abddd8c0cf9619fa</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b44665cadb33a300abddd8c0cf961950"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>calculated_date</field>
+        <id>b44665cadb33a300abddd8c0cf961950</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 17:12:48</sys_created_on>
+        <sys_id>f4c7a50edb33a300abddd8c0cf961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 17:12:48</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b44665cadb33a300abddd8c0cf961950</table>
+        <value>{{step[2db7bb93-9d02-4c64-8f4b-2e51afc54992].new_date}}</value>
+    </sys_element_mapping>
+</record_update>

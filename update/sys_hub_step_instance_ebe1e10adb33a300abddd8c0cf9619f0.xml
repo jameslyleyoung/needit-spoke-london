@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Property">bc01e10adb33a300abddd8c0cf961912</action>
+        <cid>2ba8e1a3-9bbe-4bc1-adf8-e14b3ba0b105</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Look up Application Property</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 16:47:19</sys_created_on>
+        <sys_id>ebe1e10adb33a300abddd8c0cf9619f0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Look up Application Property</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_202591_needit_sp">92b0a9c2db33a300abddd8c0cf961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">92b0a9c2db33a300abddd8c0cf961993</sys_scope>
+        <sys_update_name>sys_hub_step_instance_ebe1e10adb33a300abddd8c0cf9619f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 17:00:14</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ebe1e10adb33a300abddd8c0cf9619f0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ebe1e10adb33a300abddd8c0cf9619f0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 16:54:27</sys_created_on>
+        <sys_id>0c936d4adb33a300abddd8c0cf961911</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 17:00:14</sys_updated_on>
+        <value/>
+        <variable display_value="">04932d4adb33a300abddd8c0cf9619fc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ebe1e10adb33a300abddd8c0cf9619f0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 16:47:20</sys_created_on>
+        <sys_id>2be12d0adb33a300abddd8c0cf96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 16:47:20</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ebe1e10adb33a300abddd8c0cf9619f0</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 16:47:20</sys_created_on>
+        <sys_id>ffe12d0adb33a300abddd8c0cf96197a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 16:51:15</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  outputs.property_value = gs.getProperty(inputs.property_name);
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ebe1e10adb33a300abddd8c0cf9619f0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ebe1e10adb33a300abddd8c0cf9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 16:47:20</sys_created_on>
+        <sys_id>efe12d0adb33a300abddd8c0cf961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 16:47:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>property_name</field>
+        <id>ebe1e10adb33a300abddd8c0cf9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 16:54:27</sys_created_on>
+        <sys_id>88936d4adb33a300abddd8c0cf961911</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 17:00:14</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ebe1e10adb33a300abddd8c0cf9619f0</table>
+        <value>{{action.property}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>propety_name</field>
+        <id>ebe1e10adb33a300abddd8c0cf9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 16:47:20</sys_created_on>
+        <sys_id>fbe12d0adb33a300abddd8c0cf96197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 16:47:20</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ebe1e10adb33a300abddd8c0cf9619f0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>ebe1e10adb33a300abddd8c0cf9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 16:47:20</sys_created_on>
+        <sys_id>a7e12d0adb33a300abddd8c0cf96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 16:47:20</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
